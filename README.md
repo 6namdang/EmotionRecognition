@@ -13,7 +13,7 @@ A. Vulpe-Grigoraşi and O. Grigore, "Convolutional Neural Network Hyperparameter
 The first thing I did was importing all the neccesary libraries and I also import the datasets and divide it into training and testing datasets. 
 Next step is to augmentate the images, since different emotions contain different numbers of images. For example, inside fear folder it contains less images then angry and happy folder. Also, I want the machine to predict in different scenarios, for example, flip the images upside down, mirror the images, normalize the pixels by scaling it between 0 and 1, etc.
 
-  Model architecture: I used Ensemble CNN which use: 
+  Model architecture: Ensemble CNN
 The CNN consists of 4 convolutional layers with filters of size 32 and 64, all using 3x3 kernels.
 MaxPooling layers are added after each convolutional layer to reduce the spatial dimensions.
 The output from the convolutional layers is flattened and passed through two fully connected dense layers with 1024 and 4096 neurons, respectively, followed by dropout layers (0.2) to prevent overfitting.
