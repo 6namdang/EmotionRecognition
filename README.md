@@ -1,10 +1,11 @@
-![image](https://github.com/user-attachments/assets/f6760d2d-727f-49b1-a6a5-d84f18fff92d)# Facial-Recognition
+Emotion Recognition:
+
 This is my first machine learning project to display my knowledge about Neural Networks and Convolutional Neural Networks. 
 The dataset that was used in this model is the FER2013 dataset from Google. The code was written in Python.
 The libraries that were used in this model include: 
-Numpy: to work with Numpy array
-Matplotlib: to plot training and validation accuracy and loss
-Tensorflow: to build a Convolutional Neural Network model.
+  Numpy: to work with Numpy array
+  Matplotlib: to plot training and validation accuracy and loss
+  Tensorflow: to build a Convolutional Neural Network model.
 The hyperparameters used in this model were derived from the study Convolutional Neural Network Hyperparameters optimization for Facial Emotion Recognition by Adrian Vulpe-Grigoraşi; Ovidiu Grigore, cited below:
 
 A. Vulpe-Grigoraşi and O. Grigore, "Convolutional Neural Network Hyperparameters optimization for Facial Emotion Recognition," 2021 12th International Symposium on Advanced Topics in Electrical Engineering (ATEE), Bucharest, Romania, 2021, pp. 1-5, doi: 10.1109/ATEE52255.2021.9425073. keywords: {Training;Electrical engineering;Emotion recognition;Limiting;Databases;Classification algorithms;Convolutional neural networks;hyperparameter optimization;convolutional neural networks;facial emotion recognition;Random Search;FER2013},
@@ -23,7 +24,6 @@ The model is compiled using the Adam optimizer and categorical cross-entropy los
 The model is trained on the augmented training data and use testing dataset to validate, epochs were set at 20.
 
 The test accuracy was at 43% which was not a good performance.
-
 <img width="590" alt="image" src="https://github.com/user-attachments/assets/99ef74fe-bc7e-49af-870c-8e871675ebdf">
 
 
